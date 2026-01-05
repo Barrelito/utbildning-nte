@@ -22,6 +22,11 @@ const yearWheelData = [
                     title: "Svalgtub (OPA)",
                     description: "Grundläggande introduktion till insättning av svalgtub (OPA) för luftvägskontroll.",
                     url: "https://www.youtube.com/watch?v=Hzc_T4QBp4E"
+                },
+                {
+                    title: "CPAP-användning",
+                    description: "Lär dig hur man använder CPAP med Mike, en ambulanshelikoptersjukvårdare.",
+                    url: "https://www.youtube.com/watch?v=bJSU8RsUpjY"
                 }
             ],
             podcasts: [
