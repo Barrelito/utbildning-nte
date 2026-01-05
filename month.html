@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Månadens Tema | Utbildningsportal</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+    <div class="background-decorations" aria-hidden="true">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="logo">
+            <a href="index.html" class="logo-text">Ambulansstationen <strong>Norrtälje</strong></a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="#" class="active">Modul</a></li>
+                <li><a href="#">Resurser</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="month-container">
+        <!-- Hero Section for Month -->
+        <section class="month-hero">
+            <div class="month-badge" id="monthName">Januari</div>
+            <h1 id="monthTopic">Luftvägshantering och ventilation</h1>
+            <p id="monthResponsible" class="responsible">Ansvarig: Nettan & Linn</p>
+        </section>
+
+        <div class="content-grid">
+            <!-- Left Column: Description & Materials -->
+            <div class="content-main">
+                <section class="card section-intro">
+                    <h2>Introduktion</h2>
+                    <p id="monthDescription">
+                        Här kommer en kort beskrivning av månadens tema...
+                    </p>
+                </section>
+
+                <section class="card section-resources">
+                    <h2>Utbildningsmaterial</h2>
+                    <div class="resource-list" id="resourceList">
+                        <!-- Resources injected via JS -->
+                        <p class="placeholder-text">Inga resurser inlagda ännu.</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column: Guidelines & Contact -->
+            <div class="content-sidebar">
+                <section class="card section-guidelines">
+                    <h2>Gällande Riktlinjer</h2>
+                    <div id="guidelinesContainer" class="guidelines-list">
+                        <!-- Guidelines injected via JS -->
+                    </div>
+                </section>
+
+                <section class="card section-contact">
+                    <h2>Kontakt</h2>
+                    <p>Har du frågor om månadens utbildning?</p>
+                    <p id="contactName" class="contact-highlight">Nettan & Linn</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Ambulansstationen Norrtälje</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/month.js"></script>
+</body>
+
+</html>

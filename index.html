@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utbildningsportal | Ambulansstationen Norrtälje</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <meta name="description"
+        content="Utbildningsportal för Ambulansstationen Norrtälje baserat på ett interaktivt årshjul.">
+</head>
+
+<body class="dark-theme">
+    <div class="background-decorations" aria-hidden="true">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="logo">
+            <span class="logo-text">Ambulansstationen <strong>Norrtälje</strong></span>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#" class="active">Hem</a></li>
+                <li><a href="#">Moduler</a></li>
+                <li><a href="#">Resurser</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <section class="hero-content">
+            <h1>Utbildningsportal</h1>
+            <p class="subtitle">Klicka på en månad i årshjulet för att utforska månadens utbildningstema.</p>
+
+            <div class="year-wheel-container" id="yearWheelContainer">
+                <svg id="yearWheel" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+                    <!-- The wheel segments will be generated via JS -->
+                    <circle cx="50" cy="50" r="10" class="center-circle" />
+                    <text x="50" y="50" class="center-text" text-anchor="middle"
+                        dominant-baseline="central">Årshjul</text>
+                </svg>
+            </div>
+
+            <div id="monthInfo" class="month-info-box">
+                <h2 id="monthTitle">Välj en månad</h2>
+                <div id="monthTopic" class="topic-detail"></div>
+                <div id="monthResponsible" class="responsible-detail"></div>
+                <a href="#" id="monthLink" class="btn-primary hidden">Utforska modul</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Ambulansstationen Norrtälje</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/wheel.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
