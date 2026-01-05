@@ -68,11 +68,15 @@ function createYearWheel() {
 }
 
 function selectMonth(data) {
-    // Update UI components
-    document.querySelectorAll('.wheel-segment').forEach(s => s.classList.remove('active'));
-    document.getElementById(`segment-${data.id}`).classList.add('active');
-
-    showMonthInfo(data);
+    // Navigate directly to month page
+    if (data.topic !== "Uppehåll") {
+        window.location.href = `month.html?id=${data.id}`;
+    } else {
+        // For "Uppehåll" month, just show info
+        document.querySelectorAll('.wheel-segment').forEach(s => s.classList.remove('active'));
+        document.getElementById(`segment-${data.id}`).classList.add('active');
+        showMonthInfo(data);
+    }
 }
 
 function highlightMonth(data) {
