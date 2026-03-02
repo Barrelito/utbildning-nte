@@ -96,23 +96,23 @@ const yearWheelData = [
             videos: [],
             podcasts: [
                 {
-                    title: "Podd: Avsnitt 1",
-                    description: "Avsnitt från Spotify om akut sjuka barn prehospitalt.",
+                    title: "1. Förlossning",
+                    description: "Avsnitt från Spotify om förlossning prehospitalt.",
                     url: "https://open.spotify.com/episode/1ISd8SYEBz0COW4RcpHHE7?si=Brhl8bhESaiYDSrNx_z4-A"
                 },
                 {
-                    title: "Podd: Avsnitt 2",
-                    description: "Avsnitt från Spotify.",
+                    title: "2. Chock",
+                    description: "Avsnitt från Spotify om chock och bedömning hos barn.",
                     url: "https://open.spotify.com/episode/5WhhPWS9feW6ssuGFuvo5t?si=s3_WBevWTBen-x7tlbwh4w"
                 },
                 {
-                    title: "Podd: Avsnitt 3",
-                    description: "Avsnitt från Spotify.",
+                    title: "3. Andning",
+                    description: "Avsnitt från Spotify om andningsbesvär hos barn.",
                     url: "https://open.spotify.com/episode/4hhBDwOAitZFyGEIVHLgzo?si=toMWBIV-TbqHnPnaWFLHZg"
                 },
                 {
-                    title: "Podd: Avsnitt 4",
-                    description: "Avsnitt från Spotify.",
+                    title: "4. Första bedömning",
+                    description: "Avsnitt från Spotify om första bedömning av barn prehospitalt.",
                     url: "https://open.spotify.com/episode/4x4g860yNko1BsZeFPeRXw?si=k-d00WO7QhCFc7yWUpc5ow"
                 }
             ],
