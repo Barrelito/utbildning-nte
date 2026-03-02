@@ -122,12 +122,30 @@ const yearWheelData = [
             {
                 category: "Barn",
                 items: [
-                    { title: "Allergi, anafylaxi", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/barn/vnLxYgBt4lwl6bOnVMTD" },
-                    { title: "Epiglotit", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/barn/w3BEcKqjENh5TmfTrjLA" },
-                    { title: "Falsk krupp", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/barn/4kcDtv61TmmDxHBehRS5" },
-                    { title: "Främmande kropp", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/barn/eLaGoYzWL0EQgS1qPeJg" },
-                    { title: "Inhalation av skadliga ämnen", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/barn/ov6BcuuDJS26B7MrBIWx" },
-                    { title: "Astma / obstruktiva besvär", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/barn/2XMXrau3sbdCLsWMFfYO" }
+                    { title: "Allergi / Anafylaxi barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/PiFvvOGYIxgCHgwOZu55" },
+                    { title: "Astma / Obstruktiva besvär barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/Tefg5sdnWxOmgzCnd83j" },
+                    { title: "Epiglotit Barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/DIG0tGBDu3uH9y2goYAz" },
+                    { title: "Falsk krupp barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/JlriGwqRR6fXtDkZbdeB" },
+                    { title: "Främmande kropp barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/JlriGwqRR6fXtDkZbdeB" },
+                    { title: "Hjärtstopp barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/Oqabf5LjgWMESKlcTbRn" },
+                    { title: "Kramper barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/E8OnpvnLtj1EZuuEMgbr" },
+                    { title: "Diabetes barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/KjKMcOV9RlKfGBhjhgAh" },
+                    { title: "Meningit barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/Z7izGyDxrDoLLUr8IR70" },
+                    { title: "Brännskada / frätskada barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/Ih99o6JlunKwOtUf9XZy" },
+                    { title: "Drunkningstillbud barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/qtfAuOseCCv6TjdU3FCT" },
+                    { title: "Hypotermi barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/gJ2feonKfj6ma0vBhX5X" },
+                    { title: "Intoxikation barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/1OpIUsdVG7yaGVsKcvtA" },
+                    { title: "Trauma allmänt barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/WSnAKOseSSKMZpg8A5WW" },
+                    { title: "Ansiktskada barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/RsCZelQWYpSVVTvgMkW9" },
+                    { title: "Bukskada barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/u5Pg4ELm7dNf2CkZyKYy" },
+                    { title: "Bäckenskada barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/u5Pg4ELm7dNf2CkZyKYy" },
+                    { title: "Extremitetsskada barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/zCsQje33awD52zGkPlGi" },
+                    { title: "Skallskada barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/qP5pGL56nRpxPnoc9zy2" },
+                    { title: "Spinal skada barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/Ir5SqmRO6doQSRSQwgmq" },
+                    { title: "Ögonskada barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/VHSt4sja3eoxQpn0x1K0" },
+                    { title: "Akut buk barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/VHSt4sja3eoxQpn0x1K0" },
+                    { title: "Apgar", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/tktMijlExauacafhUUVx" },
+                    { title: "Vitalparametrar barn", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/senastenytt/vQFLBwo62LMo9bMnnZIq" }
                 ]
             }
         ]
