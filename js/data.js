@@ -88,12 +88,49 @@ const yearWheelData = [
     {
         id: "mar",
         month: "Mars",
-        topic: "Barn - första bedömning",
+        topic: "Tema Barn - Första bedömning",
         responsible: "Information saknas",
         color: "#d29922",
-        description: "Pediatrisk bedömning enligt PALS-strukturen och kommunikation med barn.",
-        resources: [],
-        quiz: []
+        description: "Pediatrisk bedömning enligt PALS-strukturen och kommunikation med barn. Här har vi samlat poddar och riktlinjer för prehospital akutsjukvård av barn.",
+        material: {
+            videos: [],
+            podcasts: [
+                {
+                    title: "Podd: Avsnitt 1",
+                    description: "Avsnitt från Spotify om akut sjuka barn prehospitalt.",
+                    url: "https://open.spotify.com/episode/1ISd8SYEBz0COW4RcpHHE7?si=Brhl8bhESaiYDSrNx_z4-A"
+                },
+                {
+                    title: "Podd: Avsnitt 2",
+                    description: "Avsnitt från Spotify.",
+                    url: "https://open.spotify.com/episode/5WhhPWS9feW6ssuGFuvo5t?si=s3_WBevWTBen-x7tlbwh4w"
+                },
+                {
+                    title: "Podd: Avsnitt 3",
+                    description: "Avsnitt från Spotify.",
+                    url: "https://open.spotify.com/episode/4hhBDwOAitZFyGEIVHLgzo?si=toMWBIV-TbqHnPnaWFLHZg"
+                },
+                {
+                    title: "Podd: Avsnitt 4",
+                    description: "Avsnitt från Spotify.",
+                    url: "https://open.spotify.com/episode/4x4g860yNko1BsZeFPeRXw?si=k-d00WO7QhCFc7yWUpc5ow"
+                }
+            ],
+            documents: []
+        },
+        guidelines: [
+            {
+                category: "Barn",
+                items: [
+                    { title: "Allergi, anafylaxi", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/barn/vnLxYgBt4lwl6bOnVMTD" },
+                    { title: "Epiglotit", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/barn/w3BEcKqjENh5TmfTrjLA" },
+                    { title: "Falsk krupp", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/barn/4kcDtv61TmmDxHBehRS5" },
+                    { title: "Främmande kropp", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/barn/eLaGoYzWL0EQgS1qPeJg" },
+                    { title: "Inhalation av skadliga ämnen", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/barn/ov6BcuuDJS26B7MrBIWx" },
+                    { title: "Astma / obstruktiva besvär", url: "https://prehospitalt-kunskapsstod.infosynk.se/category/barn/2XMXrau3sbdCLsWMFfYO" }
+                ]
+            }
+        ]
     },
     {
         id: "apr",
